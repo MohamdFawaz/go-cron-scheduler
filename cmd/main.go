@@ -1,5 +1,7 @@
 package main
 
+import "go-cron-scheduler/pkg/hello"
+
 func main() {
-	println("Hello, world!")
+	println(hello.Hello())
 }
