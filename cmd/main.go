@@ -1,7 +1,11 @@
 package main
 
-import "go-cron-scheduler/pkg/hello"
+import (
+	"time"
+)
 
 func main() {
-	println(hello.Hello())
+	for {
+		time.Sleep(time.Second)
+	}
 }
